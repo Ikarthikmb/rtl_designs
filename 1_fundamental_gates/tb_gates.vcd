@@ -1,0 +1,97 @@
+$date
+	Tue Aug 30 19:40:01 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_gates $end
+$var wire 1 ! o_xor $end
+$var wire 1 " o_xnor $end
+$var wire 1 # o_or $end
+$var wire 1 $ o_nor $end
+$var wire 1 % o_nand $end
+$var wire 1 & o_inv $end
+$var wire 1 ' o_buf $end
+$var wire 1 ( o_and $end
+$var reg 1 ) a_in $end
+$var reg 1 * b_in $end
+$var integer 32 + i [31:0] $end
+$scope module AND_GATE $end
+$var wire 1 ) a_in $end
+$var wire 1 * b_in $end
+$var wire 1 ( y_out $end
+$upscope $end
+$scope module BUFFER $end
+$var wire 1 ) a_in $end
+$var wire 1 ' y_out $end
+$upscope $end
+$scope module INVERTER $end
+$var wire 1 ) a_in $end
+$var wire 1 & y_out $end
+$upscope $end
+$scope module NAND_GATE $end
+$var wire 1 ) a_in $end
+$var wire 1 * b_in $end
+$var wire 1 % y_out $end
+$upscope $end
+$scope module NOR_GATE $end
+$var wire 1 ) a_in $end
+$var wire 1 * b_in $end
+$var wire 1 $ y_out $end
+$upscope $end
+$scope module OR_GATE $end
+$var wire 1 ) a_in $end
+$var wire 1 * b_in $end
+$var wire 1 # y_out $end
+$upscope $end
+$scope module XNOR_GATE $end
+$var wire 1 ) a_in $end
+$var wire 1 * b_in $end
+$var wire 1 " y_out $end
+$upscope $end
+$scope module XOR_GATE $end
+$var wire 1 ) a_in $end
+$var wire 1 * b_in $end
+$var wire 1 ! y_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 +
+0*
+0)
+0(
+1'
+1&
+1%
+1$
+0#
+1"
+0!
+$end
+#10
+b1 +
+#20
+0"
+0$
+1!
+1#
+b10 +
+1*
+#30
+0'
+0&
+b11 +
+1)
+0*
+#40
+1"
+0!
+0%
+1(
+b100 +
+1*
