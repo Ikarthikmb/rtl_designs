@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1663422745" />
+    <testcase name="basic_test" classname="tb_bin2gray" file="/home/kira/inventory/ikarthikmb/rtl_designs/4_bin2gray/tb_bin2gray.py" lineno="7" time="0.0014119148254394531" sim_time_ns="2.001" ratio_time="1417.2242998986828" />
+  </testsuite>
+</testsuites>
