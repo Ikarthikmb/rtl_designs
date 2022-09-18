@@ -12,5 +12,6 @@ endif
 
 TOPLEVEL := bin2gray
 MODULE := tb_bin2gray
+TESTCASE := basic_test,inc_test4b
 
 include $(shell cocotb-config --makefiles)/Makefile.sim

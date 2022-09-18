@@ -1,0 +1,37 @@
+#! /usr/bin/vvp
+:ivl_version "10.3 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x5627d5626d40 .scope module, "bin2gray" "bin2gray" 2 3;
+ .timescale 0 0;
+    .port_info 0 /INPUT 2 "i_bin"
+    .port_info 1 /OUTPUT 2 "o_gray"
+P_0x5627d5626ec0 .param/l "LEN" 0 2 4, +C4<00000000000000000000000000000010>;
+L_0x5627d560f570 .functor XOR 1, L_0x5627d56359e0, L_0x5627d5635ab0, C4<0>, C4<0>;
+v0x5627d56107b0_0 .net *"_s12", 0 0, L_0x5627d5635d60;  1 drivers
+v0x5627d56353e0_0 .net *"_s3", 0 0, L_0x5627d56359e0;  1 drivers
+v0x5627d56354c0_0 .net *"_s5", 0 0, L_0x5627d5635ab0;  1 drivers
+v0x5627d56355b0_0 .net *"_s6", 0 0, L_0x5627d560f570;  1 drivers
+v0x5627d5635690_0 .var "i", 1 0;
+o0x7fb488bcb108 .functor BUFZ 2, C4<zz>; HiZ drive
+v0x5627d56357c0_0 .net "i_bin", 1 0, o0x7fb488bcb108;  0 drivers
+v0x5627d56358a0_0 .net "o_gray", 1 0, L_0x5627d5635c70;  1 drivers
+L_0x5627d56359e0 .part o0x7fb488bcb108, 0, 1;
+L_0x5627d5635ab0 .part o0x7fb488bcb108, 1, 1;
+L_0x5627d5635c70 .concat8 [ 1 1 0 0], L_0x5627d560f570, L_0x5627d5635d60;
+L_0x5627d5635d60 .part o0x7fb488bcb108, 1, 1;
+    .scope S_0x5627d5626d40;
+T_0 ;
+    %pushi/vec4 0, 0, 2;
+    %store/vec4 v0x5627d5635690_0, 0, 2;
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "bin2gray.v";

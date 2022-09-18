@@ -1,6 +1,7 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1663422745" />
-    <testcase name="basic_test" classname="tb_bin2gray" file="/home/kira/inventory/ikarthikmb/rtl_designs/4_bin2gray/tb_bin2gray.py" lineno="7" time="0.0014119148254394531" sim_time_ns="2.001" ratio_time="1417.2242998986828" />
+    <property name="random_seed" value="1663505064" />
+    <testcase name="basic_test" classname="tb_bin2gray" file="/home/kira/inventory/ikarthikmb/rtl_designs/4_bin2gray/tb_bin2gray.py" lineno="8" time="0.001348257064819336" sim_time_ns="2.001" ratio_time="1484.1383384615383" />
+    <testcase name="inc_test4b" classname="tb_bin2gray" file="/home/kira/inventory/ikarthikmb/rtl_designs/4_bin2gray/tb_bin2gray.py" lineno="54" time="0.0028700828552246094" sim_time_ns="16.000999999999998" ratio_time="5575.100374148529" />
   </testsuite>
 </testsuites>
