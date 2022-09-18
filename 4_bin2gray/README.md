@@ -15,7 +15,7 @@ single-step, monostrophic, or syncopic codes. ([more](https://en.wikipedia.org/w
 
 ## Truth table of 4-bit Binary to Gray Code:
 
-[4-bit binary to gray code truth table
+![4-bit binary to gray code truth table
 image](https://tutorialspoint.dev/image/quicklatex.com-7a95526cfcb7ffdf0da117ee1d528dda_l3.png)
 
 **Equations:**
