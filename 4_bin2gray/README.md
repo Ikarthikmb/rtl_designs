@@ -1,5 +1,7 @@
 # Binary to Gray Converter
 
+![Synthesized image](img/synth_bin2gray.png)
+
 A custom binary to gray counter. For simplicity, I shall be designing a 4-bit binary
 to gray converter and verify it.
 
