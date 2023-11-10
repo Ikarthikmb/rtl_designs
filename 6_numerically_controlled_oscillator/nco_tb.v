@@ -23,7 +23,7 @@ module nco_tb;
       clk <= 0;
       reset <= 1;
       #50 reset <= 0;
-      phase_inc <= 8'h10;
+      phase_inc <= 8'h01;
   
       // Wait for 1000 clock cycles
       #500;
