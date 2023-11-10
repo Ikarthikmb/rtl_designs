@@ -30,7 +30,7 @@ gtkwave nco_tb.vcd
 The phase_inc value determines the frequency of the generated waveform. A higher phase_inc value will result in a higher frequency waveform. The following table shows the relationship between the phase_inc value and the frequency of the generated waveform:
 
 | phase_inc | Frequency (Hz) |
-|---|---|---|
+|---|---|
 | 1 | clk / 256 |
 | 2 | clk / 128 |
 | 4 | clk / 64 |
